@@ -12,9 +12,9 @@ is_light_on = True
 a, b = 4, 8
 print(country , city)
 
-print(type(full_name))
-print(len(full_name))
-print(len(last_name))
+print(type(full_name))      #1
+print(len(full_name))       #2
+print(len(last_name))       #3
 
 num_one = 5     #4
 num_two = 4
@@ -42,11 +42,26 @@ print(remainder)
 
 r = 30      #5
 pi = 3,14
-diameter = 30 * 2
-area_of_circle = pi * r
-circum_of_circle = pi * diameter
+diameter = r * 2
+area_of_circle = pi * r      #i
+circum_of_circle = pi * diameter        #ii
 
 print(area_of_circle , circum_of_circle)
 
-run 
-help("keywords")
+r = input('Cual es el radio: ')        #iii
+print(f"El radio es {r}")
+
+area_of_circle = pi * r
+circum_of_circle = pi * diameter 
+
+firt_name = input('Cual es tu nombre: ')        #6
+print(f"Mi nombre es {first_name}")
+
+last_name = input('Cual es tu primer apellido: ')
+print(f"Mi primer apellido es {last_name}")
+
+country = input('En qué país vives: ')
+print(f"El país donde vivo {country}")
+
+age = input('Cuántos años tienes: ')
+print(f"Tengo {age} años")
