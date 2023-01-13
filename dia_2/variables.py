@@ -28,27 +28,28 @@ print(diff)
 product = num_one * num_two     #4iii
 print(product)
 
-exp = pow(num_one , num_two)      #4iv
-print(exp)
-
-floor_division = num_one // num_two     #4v
-print(floor_division)
-
-division = num_one / num_two      #4vi
+division = num_one / num_two      #4iv
 print(division)
 
-remainder = num_two % num_one     #4vii
+remainder = num_two % num_one     #4v
 print(remainder)
 
+exp = pow(num_one , num_two)      #4vi
+print(exp)
+
+floor_division = num_one // num_two     #4vii
+print(floor_division)
+
+
 r = 30      #5
-pi = 3,14
+pi = 3.14
 diameter = r * 2
-area_of_circle = pi * r      #i
-circum_of_circle = pi * diameter        #ii
+area_of_circle = pi * r      #5i
+circum_of_circle = pi * diameter        #5ii
 
 print(area_of_circle , circum_of_circle)
 
-r = input('Cual es el radio: ')        #iii
+r = input('Cual es el radio: ')        #5iii
 print(f"El radio es {r}")
 
 area_of_circle = pi * r
@@ -65,3 +66,5 @@ print(f"El país donde vivo {country}")
 
 age = input('Cuántos años tienes: ')
 print(f"Tengo {age} años")
+
+help("keywords")
