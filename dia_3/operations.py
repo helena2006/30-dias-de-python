@@ -51,7 +51,7 @@ x1 = 2
 x2 = 6
 y1 = 2
 y2 = 10
-m = (y2 - y1) / (x2 - x1)
+m = (y2 - y1) / (x2 - x1)       #10
 print(f"su pendiente es: {m}")
 euclideandistance = (x2 - x1) ** 2 + (y2 - y1) ** 2
 print(f"la distancia eucliana es de: {euclideandistance}")
