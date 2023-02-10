@@ -23,3 +23,5 @@ print(type ('-6i'))
 print(type ('hello world'))
 print(True) # Do I like chocolat? If I like it, then value is true 
 print(False) # Do I like chocolat? If I don't like it, then value is false 
+
+#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
