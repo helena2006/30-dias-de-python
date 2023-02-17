@@ -48,8 +48,6 @@ print(CFA.rfind("l"))       #22
 sentence = "You cannot end a sentence with because because because is a conjunction"        #23
 print(sentence.index("because"))
 print(sentence.rindex("because"))       #24
-to_remove = "because because because"       #25
-print(len(sentence))
-print("Sentence Slicing: ", sentence [0:sentence.index(to_remove)] + sentence[sentence.rindex(to_remove) + len(to_remove):])
+sentence.replace("because because because")     #25
 print(sentence.find("because"))     #26
 #27 same question in point 25
