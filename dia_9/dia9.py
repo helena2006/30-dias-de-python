@@ -28,13 +28,21 @@ B = 70, 89
 C = 60, 69
 D = 50, 59
 F = 0, 49
-if nota >= A:
+if nota >= 90 and nota <= 100:
     print("Congratulations! You got an A")
-if nota >= B:
+elif nota >=70 and nota <= 89:
     print("You got a B")
-if nota >= C:
+elif nota >= 60 and nota <=69:
     print("You got a C")
-if nota >= D:
+elif nota >= 50 and nota <= 59:
     print("You got a D")
-if nota >= F:
+elif nota >= 0 and nota <= 49:
     print("You failed")
+
+season = int(input("¿En que mes estamos?"))
+Autumn = "September, October or November"
+Winter = "December, January or February"
+Spring = "March, April or May"
+Summer = "June, July or August"
+if season is "september" "october" "november":
+    print("It's Autumn")

@@ -1,9 +1,9 @@
 dog = {}        #1
-dog["name"] = "Helena"        #2
-dog["color"] = "Blue"
-dog["breed"] = "Spanish"
-dog["legs"] = "2"
-dog["age"] = "16"
+dog["name"] = "Lusy"        #2
+dog["color"] = "black"
+dog["breed"] = "yorkshie"
+dog["legs"] = "4"
+dog["age"] = "8"
 
 studen_dictionary = {"first_name" : "Helena" , "last_name" : "Troncoso" , "gender" : "female" , "age" : 16 , "marital_status" : "single" , "skills" : ["creativity", "adaptability"] , "country" : "Spain" , "City" : "Jerez" , "address" : {"city" : "Jerez" , "CP" : "11405"}}       #3
 print(len(dog))     #4
