@@ -39,10 +39,29 @@ elif nota >= 50 and nota <= 59:
 elif nota >= 0 and nota <= 49:
     print("You failed")
 
-season = int(input("¿En que mes estamos?"))
+season = str(input("¿En que mes estamos?  "))     #Level 2 - 2
+season_capitalized=season.capitalize()     
 Autumn = "September, October or November"
 Winter = "December, January or February"
 Spring = "March, April or May"
 Summer = "June, July or August"
-if season is "september" "october" "november":
+
+if season_capitalized == "September" or season_capitalized == "October" or season_capitalized == "November":
     print("It's Autumn")
+elif season_capitalized == "December" or season_capitalized == "January" or season_capitalized == "February":
+    print("It's winter")
+elif season_capitalized == "March" or season_capitalized == "April" or season_capitalized == "May":
+    print("It's spring")
+elif season_capitalized == "June" or season_capitalized == "July" or season_capitalized == "August":
+    print("It's summer")
+
+
+fruits = ["banana", "orange", "mango", "lemon"]     #Level 2 - 3
+new_fruit = str(input("Dime una fruta:  "))
+season_capitalized=season.capitalize()
+
+if new_fruit in fruits:
+    print("La fruta ya esta en la lista")
+else:
+    fruits.insert
+print(fruits)
