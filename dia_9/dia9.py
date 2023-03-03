@@ -2,7 +2,7 @@ a = int(input("Inserte su edad: "))     #Level 1 - 1
 if a >= 18:
     print("Usted tiene edad para conducir")
 if a < 18:
-    print("Usted no tiene edad suficiente para conducir")
+    print(f"Le faltan {18 - a} años para poder conducir")
 
 b = int(input("Who is older?"))     #Level 1 - 2
 my_age = 16
