@@ -63,5 +63,5 @@ season_capitalized=season.capitalize()
 if new_fruit in fruits:
     print("La fruta ya esta en la lista")
 else:
-    fruits.insert
-print(fruits)
+    fruits.append(new_fruit)
+    print(fruits)
