@@ -43,30 +43,21 @@ for l in langs:
     print(l)
 
 
-#Level 1 - 7
+#Level 1 - 7 y 8
 
-cont = 0
-while cont < 100:
-    if(cont / 2 == 0):
-        print(cont)
-        cont = cont + 1
+for t in range(101):
+    if t%2==0:
+        print(t)
+    else:
+        continue
+for t in range(101):
+    if not (t %2 == 0):
+        print(t)
     else:
         continue
 
 
-#Level 1 - 8
+#Level 2 - 1
 
-
-
-
-#Level 1 - 3
-
-numbers = [0, 1, 2, 3, 4, 5, 6, 7]
-for n in numbers:
-    print("#" * n)
-
-
-m = [[1 , 2] , [3 , 4]]
-for n in range (7):
-    print("#" * n)
-
+suma = 0
+suma = t + suma
