@@ -10,3 +10,6 @@ pi = 2.14
 r = int(input("Inserta un radio: "))
 area_of_circle = pi * r * r
 print(area_of_circle)
+
+#Level 1 - 3
+def add_all_nums()
